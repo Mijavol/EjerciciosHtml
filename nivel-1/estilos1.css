@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
     max-width: 1200p;
+    box-sizing: border-box;
   }
   .caja-1{
     background: #666097;
     height: 100px;
     width: 1200px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* padding: 20px solido red; */
     border: 20px solid black;
     border-bottom-width: 5px; 
@@ -17,7 +18,6 @@
     display:inline-flex;
     background: rgb(237, 74, 49);
     height: 30px;
-    /* width: 387px; */
     margin: 25px 25px ;
     border: 15px;
   
@@ -45,8 +45,6 @@
     border-bottom-width: 20px; 
     margin: 0px 20px 20px 20px;
   }
-      
-  
   .caja-21{
     margin: 20px 25px 20px 25px;
     background: yellow;
@@ -58,46 +56,47 @@
   .q{ 
     display:inline-flex;
   }
-  .u{
-    display:inline-flex;
-    background: rgb(68 , 26, 205);
-    width: 353px;
-    margin: 20px 10px 10px 20px;
-    height: 30px;
-    /*border-left-width: 10px;*/
-  }
-  .r{
-    display:inline-flex;
-    background: rgb(68, 26, 205);
-    width: 353px;
-    margin: 20px 20px 10px 10px;
-    height: 30px;
-    /* border-left-width: 10px; */
-  }
-  
   .caja-3{
     background: #666097;
-    width: 770px;
-    height: 180px;
+    width: 800px;
+    height: 200px;
     margin: 20px;
     border: 20px solid black;
     border-right-width: 10px;
     margin-right: 0px;
     margin-top: 0px;
+    box-sizing: border-box;
+   }
+  .u{
+    display:inline-flex;
+    background: rgb(68 , 26, 205);
+    width: 350px;
+    margin: 20px 10px 5px 20px;
+    height: 30px;
   }
+  .r{
+    display:inline-flex;
+    background: rgb(68, 26, 205);
+    width: 350px;
+    margin: 20px 20px 5px 10px;
+    height: 30px;
+    /* border-left-width: 10px; */
+  }
+  
+  
   .m{
     margin-top: 10px;
   }
   .caja-35{
     margin: 10px 10px 20px 20px;
     background: rgb(116, 209, 231);
-    width: 730px;
+    width: 725px;
     height: 30px;
   }
   .caja-4{
     background: rgb(253, 92, 74);
-    width: 370px;
-    height: 180px;
+    width: 400px;
+    height: 200px;
     margin-left: 0px;
     border: 20px solid black;
     margin-top: 0px;
@@ -112,9 +111,44 @@
     margin-top: 10px;
   }
   .caja-5{
-    width: 1160px;
+    width: 1200px;
     margin-left: 20px;
-    height: 30px;
+    height: 70px;
     border: 20px solid black;
-    background: rgb(240, 229, 69);
+    background: rgb(214, 201, 13);
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+    
+    .caja-11{
+        /* width: auto; */
+        max-width: 1024p;
+        /* box-sizing: border-box; */
+    }
+    .caja-3{
+        
+        width: 1024px;
+        box-sizing: border-box;
+        border: 20px solid rgb(244, 248, 3);
+        margin-bottom: 0px;
+        /* width:auto; */
+        border-bottom: 10px;  
+    }
+    .caja-4{
+
+        border: 20px solid rgb(244,248,3);
+        width: 1024px; 
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-left: 20px;
+        /* border-top: 10px; */
+    }
+    .q{
+        display: block;
+        width:max-content;
+    }
+    .caja-5{
+        width: 1024px;
+        margin-top: 20px;
+    }
+    
   }
