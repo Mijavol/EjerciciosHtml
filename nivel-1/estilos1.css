@@ -2,14 +2,12 @@
     margin: 0px;
     padding: 0px;
     max-width: 1200p;
-    /* box-sizing: border-box; */
   }
   .caja-1{
     background: #666097;
     height: 100px;
     width: 1200px;
     box-sizing: border-box;
-    /* padding: 20px solido red; */
     border: 20px solid black;
     border-bottom-width: 5px; 
     margin: 20px 20px 0px 20px;
@@ -26,9 +24,10 @@
   .caja-11{
     width: 245px;
     margin-right: 10px;
+    margin-left: 20px;
   }
   .caja-12{
-    width: 582px;
+    width: 587px;
     margin-right: 5px;
     margin-left: 5px;
   }
@@ -47,13 +46,12 @@
     margin: 0px 20px 20px 20px;
   }
   .caja-21{
-    margin: 20px 25px 20px 25px;
+    margin: 20px 25px 20px 20px;
     background: yellow;
     height: 30px;
-    width: 1110px;
+    width: 1115px;
     border-right-width: 25px;
     border-left-width: 25px;
-    /* box-sizing: border-box; */
   }
   .q{ 
     display:inline-flex;
@@ -104,7 +102,7 @@
   }
   .b{
     background: rgb(241, 222, 135);
-    margin: 20px 20px 10px 20px;
+    margin: 20px 25px 10px 20px;
     height: 30px;
   }
   .caja-42{
@@ -118,11 +116,11 @@
     border: 20px solid black;
     background: rgb(214, 201, 13);
   }
+  /* tableta */
   @media (min-width: 768px) and (max-width: 1024px){
     
     .caja-1{
        width: 1024px;
-       /* max-width: 1024px; */
        box-sizing: border-box;
     }
     .p{
@@ -165,7 +163,6 @@
         box-sizing: border-box;
         margin-top: 0px;
         margin-left: 20px;
-        /* border-top: 10px; */
     }
     .q{
         display: block;
@@ -176,5 +173,7 @@
         width: 1024px;
         margin-top: 20px;
     }
-    
   }
+
+ 
+   
